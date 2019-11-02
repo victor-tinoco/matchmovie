@@ -11,12 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
+
         <activity android:name=".main.MainActivity">
-=======
-        <activity android:name=".MatchActivity"></activity>
-        <activity android:name=".MainActivity">
->>>>>>> 6fa86231f09b7a15f7d1972c67d1274e172f88b2
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
