@@ -1,16 +1,21 @@
 package br.com.iteris.iteris.main;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import br.com.iteris.iteris.R;
+import br.com.iteris.iteris.favoritos.ActivityFavoritos;
 import br.com.iteris.iteris.helper.TouchHelperMain;
 import br.com.iteris.iteris.models.Filme;
 import br.com.iteris.iteris.service.FilmeService;
@@ -69,8 +74,21 @@ public class MainActivity extends AppCompatActivity {
                     public void onFailure(Call<List<Filme>> call, Throwable t) {}
                 });
 
+    }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
 
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    public boolean loadFavoritos(MenuItem menuItem){
+        Toast.makeText(this, "Favoritos", Toast.LENGTH_SHORT).show();
+
+        startActivity(new Intent(this, ActivityFavoritos.class));
+
+        return true;
     }
 
 }

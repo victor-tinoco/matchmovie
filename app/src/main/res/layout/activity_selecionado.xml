@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/img_selecionado"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/nome_selecionado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_selecionado"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/diretor_selecionado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome_selecionado"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/writer_selecionado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diretor_selecionado"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/overView_selecionado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/writer_selecionado"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/year_selecionado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/overView_selecionado"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"/>
+
+
+</RelativeLayout>

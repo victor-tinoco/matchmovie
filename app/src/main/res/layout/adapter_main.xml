@@ -14,7 +14,7 @@
             android:layout_height="200dp"/>
 
         <ImageView
-            android:id="@+id/img_botao"
+            android:id="@+id/img_botao_favoritar"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_below="@id/nome_main"
