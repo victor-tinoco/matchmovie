@@ -6,13 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
+    android:background="@color/background_gray"
     tools:context=".main.MainActivity">
 
     <ImageView
         android:id="@+id/ivFavorite"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/ic_tinder"
         android:layout_alignParentRight="true"
         />
@@ -20,7 +21,7 @@
     <ImageView
         android:id="@+id/ivLogo"
         android:layout_width="250dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="25dp"
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"

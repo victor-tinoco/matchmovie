@@ -3,58 +3,79 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    android:padding="20dp"
+    android:background="@color/background_gray">
+
+    <ImageView
+        android:id="@+id/ivLogoSelect"
+        android:layout_width="250dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:src="@drawable/matchmovie" />
 
     <ImageView
         android:id="@+id/img_selecionado"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:background="@drawable/rounded_border"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/ivLogoSelect"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:id="@+id/nome_selecionado"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/img_selecionado"
         android:textAlignment="center"
         android:textColor="#fff"
-        android:textSize="30dp"/>
+        android:text="Nome do Filme"
+        android:fontFamily="@font/bold"
+        android:textSize="22sp"/>
 
     <TextView
         android:id="@+id/diretor_selecionado"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/nome_selecionado"
-        android:textAlignment="center"
         android:textColor="#fff"
-        android:textSize="30dp"/>
+        android:fontFamily="@font/normal"
+        android:text="Diretor"
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/writer_selecionado"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/diretor_selecionado"
-        android:textAlignment="center"
+        android:layout_below="@+id/overView_selecionado"
         android:textColor="#fff"
-        android:textSize="30dp"/>
+        android:fontFamily="@font/normal"
+        android:text="Escritor"
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/overView_selecionado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/writer_selecionado"
-        android:textAlignment="center"
+        android:layout_below="@+id/diretor_selecionado"
+        android:text="Over"
+        android:layout_margin="10dp"
         android:textColor="#fff"
-        android:textSize="30dp"/>
+        android:textSize="14dp"/>
 
     <TextView
         android:id="@+id/year_selecionado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/overView_selecionado"
-        android:textAlignment="center"
+        android:layout_below="@+id/img_selecionado"
+        android:layout_toRightOf="@id/nome_selecionado"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="2019"
         android:textColor="#fff"
-        android:textSize="30dp"/>
+        android:textSize="20dp"/>
 
 
 </RelativeLayout>

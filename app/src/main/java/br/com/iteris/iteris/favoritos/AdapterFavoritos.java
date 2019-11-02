@@ -72,11 +72,13 @@ public class AdapterFavoritos extends RecyclerView.Adapter<AdapterFavoritos.Favo
         ImageView img;
         TextView nome;
         View card;
+        TextView age;
 
         public FavoritosHolder(@NonNull View itemView) {
             super(itemView);
 
             img = itemView.findViewById(R.id.img_favoritos);
+            age = itemView.findViewById(R.id.tvAge);
             nome = itemView.findViewById(R.id.nome_favoritos);
             card = itemView.findViewById(R.id.card_favoritos);
 

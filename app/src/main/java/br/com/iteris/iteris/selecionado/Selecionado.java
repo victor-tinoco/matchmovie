@@ -20,6 +20,7 @@ public class Selecionado extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_selecionado);
 
+        setTitle(FilmesDao.filmeSelecionado.getName());
 
         load();
     }

@@ -2,7 +2,7 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     app:cardBackgroundColor="@color/background_gray">
 
     <RelativeLayout
@@ -18,7 +18,7 @@
             <ImageView
                 android:id="@+id/img_main"
                 android:layout_width="match_parent"
-                android:layout_height="320dp"
+                android:layout_height="250dp"
                 android:scaleType="centerCrop" />
 
             <TextView
@@ -34,17 +34,17 @@
                 android:textSize="25sp"
                 />
 
-<!--            <TextView
-                android:id="@+id/tvAge"
+            <TextView
+                android:id="@+id/tvAgeMain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/tvName"
+                android:layout_below="@id/nome_main"
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="20dp"
                 android:fontFamily="@font/semibold"
                 android:text="2019"
                 android:textColor="@color/light_gray"
-                android:textSize="20sp" />-->
+                android:textSize="20sp" />
         </RelativeLayout>
 
         <ImageView

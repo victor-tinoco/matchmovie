@@ -12,10 +12,13 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
+import org.w3c.dom.Text;
+
 import java.util.List;
 
 import br.com.iteris.iteris.R;
 import br.com.iteris.iteris.dao.FilmesDao;
+import br.com.iteris.iteris.listener.FavoritosClick;
 import br.com.iteris.iteris.models.Filme;
 
 public class AdapterMain extends RecyclerView.Adapter<AdapterMain.MainHolder> {
@@ -23,11 +26,16 @@ public class AdapterMain extends RecyclerView.Adapter<AdapterMain.MainHolder> {
     Context context;
     LayoutInflater inflater;
     List<Filme> listaDeFilmes;
+    FavoritosClick favoritosClick;
 
     public AdapterMain(Context context, List<Filme> listaDeFilmes){
         this.listaDeFilmes = listaDeFilmes;
         this.context = context;
         this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    }
+
+    public void setFavoritosClick(FavoritosClick favoritosClick) {
+        this.favoritosClick = favoritosClick;
     }
 
     @NonNull
@@ -50,7 +58,7 @@ public class AdapterMain extends RecyclerView.Adapter<AdapterMain.MainHolder> {
             @Override
             public void onClick(View view) {
                 FilmesDao.filmesDAO.add(listaDeFilmes.get(i));
-                Toast.makeText(context, "FAVORITADO" + FilmesDao.filmesDAO.get(i).getName(), Toast.LENGTH_LONG).show();
+                favoritosClick.oiClick();
             }
         });
     }
@@ -65,10 +73,12 @@ public class AdapterMain extends RecyclerView.Adapter<AdapterMain.MainHolder> {
         ImageView img;
         TextView nome;
         ImageView botaoImg;
+        TextView age;
 
         public MainHolder(@NonNull View itemView) {
             super(itemView);
 
+            age = itemView.findViewById(R.id.tvAgeMain);
             img = itemView.findViewById(R.id.img_main);
             nome = itemView.findViewById(R.id.nome_main);
             botaoImg = itemView.findViewById(R.id.img_botao_favoritar);

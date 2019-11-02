@@ -17,6 +17,7 @@ import java.util.List;
 import br.com.iteris.iteris.R;
 import br.com.iteris.iteris.favoritos.ActivityFavoritos;
 import br.com.iteris.iteris.helper.TouchHelperMain;
+import br.com.iteris.iteris.listener.FavoritosClick;
 import br.com.iteris.iteris.models.Filme;
 import br.com.iteris.iteris.service.FilmeService;
 import retrofit2.Call;
@@ -45,6 +46,13 @@ public class MainActivity extends AppCompatActivity {
 
         rvMain.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         rvMain.setAdapter(adapterMain);
+
+        adapterMain.setFavoritosClick(new FavoritosClick() {
+            @Override
+            public void oiClick() {
+                load();
+            }
+        });
 
         ItemTouchHelper touchHelperMain = new ItemTouchHelper(new TouchHelperMain(this));
         touchHelperMain.attachToRecyclerView(rvMain);
