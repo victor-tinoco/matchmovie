@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="AndroidLayouts">
     <shared>
       <config />
@@ -12,6 +13,11 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="801a2839-6483-4389-99f1-6a64713a802d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+>>>>>>> 4c980f5b65e4246cb7ca00a0145b6720f99471a7
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +39,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/iteris/iteris/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,10 +74,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="31" selection-end-column="85" />
+>>>>>>> 4c980f5b65e4246cb7ca00a0145b6720f99471a7
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_actions.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,6 +125,13 @@
       </list>
     </option>
   </component>
+=======
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+>>>>>>> 4c980f5b65e4246cb7ca00a0145b6720f99471a7
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -171,16 +193,25 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="729" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="345" />
+    <option name="y" value="-22" />
+    <option name="width" value="1280" />
+    <option name="height" value="721" />
+>>>>>>> 4c980f5b65e4246cb7ca00a0145b6720f99471a7
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -195,6 +226,12 @@
       <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+>>>>>>> 4c980f5b65e4246cb7ca00a0145b6720f99471a7
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,6 +239,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="android.template.packageName">
       <recent name="br.com.iteris.iteris" />
@@ -210,6 +248,8 @@
       <recent name="" />
     </key>
   </component>
+=======
+>>>>>>> 4c980f5b65e4246cb7ca00a0145b6720f99471a7
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -289,16 +329,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="7c76bf06-b546-4bc5-8a2e-1cd0df0eb24a" name="Default Changelist" comment="" />
       <created>1572702424274</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572702424274</updated>
+=======
+      <changelist id="801a2839-6483-4389-99f1-6a64713a802d" name="Default Changelist" comment="" />
+      <created>1572705611428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572705611428</updated>
+>>>>>>> 4c980f5b65e4246cb7ca00a0145b6720f99471a7
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+<<<<<<< HEAD
     <layout>
       <window_info id="Structure" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
@@ -389,6 +438,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32980332" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.3289689" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="31" selection-end-column="85" />
+>>>>>>> 4c980f5b65e4246cb7ca00a0145b6720f99471a7
         </state>
       </provider>
     </entry>
