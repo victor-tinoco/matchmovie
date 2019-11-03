@@ -3,9 +3,11 @@
 Projeto desenvolvido no Hackathon Iteris 2019.
 
 ## Começando
-Este projeto foi feito num evento de Hackathon que teve para um processo seletivo de estagiários na empresa [Iteris](https://www.iteris.com.br/) no dia 02/11/2019, onde foi nos dado o desafio de criar um aplicativo em um dia. A ideia foi desenvolver uma solução trazendo a ideia do Tinder para uma *API*, das três que nos disponibilizaram, de filmes. 
+Este projeto foi feito num evento de Hackathon que teve para um processo seletivo de estagiários na empresa [Iteris](https://www.iteris.com.br/) no dia 02/11/2019, onde foi nos dado o desafio de criar um aplicativo em um dia. Inicialmente foi nos dados um treinamento, ministrado por [Renan Alan](https://github.com/renanalan/) — profissional sênior de desenvolvimento para android, onde em somente um dia, dia este sendo uma semana anterior ao dia do evento, nos passaram como desenvolver do zero uma aplicação simples com as tecnologias para listagem de cards e consumo de *APIs*.
 
 > Por fim nosso grupo ficou entre os **Top 3** dos onze grupos presentes no dia, ocupando a terceira posição.
+
+ A ideia foi desenvolver uma solução trazendo a proposta do Tinder para Filmes com uma das três *APIs* que nos disponibilizaram. 
 
 ## Features
 - Swipe nos cards da tela principal para dispensar a sugestão e avançar para a próxima, e botão de like semelhante ao Tinder para enviar o card para a lista de favoritados.
