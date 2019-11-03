@@ -3,7 +3,7 @@
 Projeto desenvolvido no Hackathon Iteris 2019.
 
 ## Começando
-Este projeto foi feito num evento de Hackathon que teve para um processo seletivo de estagiários na empresa [Iteris](https://www.iteris.com.br/) no dia , onde foi nos dado o desafio de criar um aplicativo em um dia. A ideia foi desenvolver uma solução trazendo a ideia do Tinder para uma *API*, das três que nos disponibilizaram, de filmes. 
+Este projeto foi feito num evento de Hackathon que teve para um processo seletivo de estagiários na empresa [Iteris](https://www.iteris.com.br/) no dia 02/11/2019, onde foi nos dado o desafio de criar um aplicativo em um dia. A ideia foi desenvolver uma solução trazendo a ideia do Tinder para uma *API*, das três que nos disponibilizaram, de filmes. 
 
 > Por fim nosso grupo ficou entre os **Top 3** dos onze grupos presentes no dia, ocupando a terceira posição.
 
